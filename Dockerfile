@@ -2,7 +2,7 @@ FROM alpine:3
 
 LABEL maintainer="Yoann VANITOU <yvanitou@gmail.com>"
 
-ARG MONIT_VERSION=5.28.0
+ARG MONIT_VERSION=5.28.1
 
 RUN set -x \
     && apk add --no-cache --virtual mybuild \
